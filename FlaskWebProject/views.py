@@ -106,6 +106,7 @@ def authorized():
         # Here, we'll use the admin username for anyone who is authenticated by MS
         app.logger.info("Getting user")
         user = User.query.filter_by(username="admin").first()
+        app.logger.info(user)
         login_user(user)
         _save_cache(cache)
 
