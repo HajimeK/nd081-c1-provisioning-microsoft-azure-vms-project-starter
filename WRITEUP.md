@@ -178,3 +178,5 @@ This is I put in the source code(https://github.com/HajimeK/nd081-c1-provisionin
 ![](myfolder/2021-05-29-07-12-03.png)
 
 For an unsuccessful case, please find below.
+Unsuccessful access attempt can be seen in "2021-05-28T22:33:05.510248293Z Invalid username or password".
+![](myfolder/2021-05-29-07-33-46.png)
