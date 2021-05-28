@@ -82,7 +82,7 @@ Just to evaluate the connectivity to DB and simply register and browse data into
 
 Environment settings for DB connectivity, deployment, log management can be accomplished within the *App Service*.
 
-If the application requirements becomes more complest to separate the function and logics, VMs could be the better choice.
+If the application requirements becomes more complex to separate the function and logics, VMs could be the better choice.
 
 ### Assess app changes that would change your decision.
 
