@@ -172,7 +172,9 @@ Both successful and unsuccessful attempts to access the web app are logged.
 
 As evidence, provide a screenshot or download the logs from Azure containing at least one successful and one unsuccessful access attempt, and include in your submission files. If otherwise submitting a URL, please include a link to screenshot/logs in the “Submission Details” box on the project submission page.
 
-Successful access "2021-05-28T10:43:34.070869243Z redirecting to home" can be seen in the following screen shot.
+Successful access "2021-05-28T22:05:25.812473854Z login" can be seen in the following screen shot.
 This is I put in the source code(https://github.com/HajimeK/nd081-c1-provisioning-microsoft-azure-vms-project-starter/blob/master/FlaskWebProject/views.py).
-![](myfolder/2021-05-29-07-00-01.png)
 
+![](myfolder/2021-05-29-07-12-03.png)
+
+For an unsuccessful case, please find below.
