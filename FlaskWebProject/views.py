@@ -32,6 +32,8 @@ def home():
 @app.route('/new_post', methods=['GET', 'POST'])
 @login_required
 def new_post():
+    app.logger.info('new_post')
+
     form = PostForm(request.form)
     if form.validate_on_submit():
         post = Post()
@@ -48,6 +50,8 @@ def new_post():
 @app.route('/post/<int:id>', methods=['GET', 'POST'])
 @login_required
 def post(id):
+    app.logger.info('post')
+
     post = Post.query.get(int(id))
     form = PostForm(formdata=request.form, obj=post)
     if form.validate_on_submit():
@@ -62,6 +66,8 @@ def post(id):
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    app.logger.info('login')
+
     if current_user.is_authenticated:
         return redirect(url_for('home'))
     form = LoginForm()
@@ -116,6 +122,8 @@ def authorized():
 
 @app.route('/logout')
 def logout():
+    app.logger.info('logout')
+
     logout_user()
     if session.get("user"): # Used MS Login
         # Wipe out user and its token cache from session
